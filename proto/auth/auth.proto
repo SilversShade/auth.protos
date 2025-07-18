@@ -2,7 +2,8 @@ syntax = "proto3";
 
 package auth;
 
-option go_package="gorbatov/auth/v1";
+option go_package="github.com/SilversShade/auth.protos/v1";
+
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
   rpc Login (LoginRequest) returns (LoginResponse);

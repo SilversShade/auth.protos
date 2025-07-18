@@ -1,4 +1,4 @@
-module protos
+module github.com/SilversShade/auth.protos
 
 go 1.24
 
